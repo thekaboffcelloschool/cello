@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Kaboff Cello School &mdash; Vienna, VA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.hero{min-height:100vh;background:var(--dark);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding-top:64px;}
+.hbg2{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 80% 50%,rgba(200,137,58,.08) 0%,transparent 70%);}
+.hl{position:absolute;top:0;bottom:0;width:1px;background:rgba(200,137,58,.15);}
+.hl:nth-child(1){left:20%;}.hl:nth-child(2){left:80%;}
+.hc{position:relative;z-index:1;text-align:center;padding:3rem 2rem 2rem;max-width:800px;animation:fu 1s ease both;}
+@keyframes fu{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(3rem,8vw,6rem);line-height:.95;color:#faf7f2;letter-spacing:-.01em;margin-bottom:2rem;}
+.hero h1 em{font-style:italic;color:var(--al);}
+.htag{font-size:1.15rem;font-weight:300;font-style:italic;color:rgba(250,247,242,.65);max-width:540px;margin:0 auto 1.5rem;}
+.hdiv{width:60px;height:1px;background:var(--amber);margin:0 auto 1.5rem;}
+.hsub{font-family:'Josefin Sans',sans-serif;font-weight:300;font-size:.85rem;letter-spacing:.12em;color:rgba(250,247,242,.5);max-width:500px;margin:0 auto 2.5rem;line-height:1.8;}
+.hact{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem;}
+.hcl{position:relative;z-index:1;padding:0 2rem 1.5rem;max-width:700px;margin:0 auto;}
+.hcl img{width:100%;border:1px solid rgba(200,137,58,.2);filter:brightness(.9);}
+.hcl-cap{font-family:'Josefin Sans',sans-serif;font-weight:200;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(200,137,58,.6);text-align:center;margin-top:.75rem;}
+.hphotos{position:relative;z-index:1;display:flex;gap:1rem;justify-content:center;padding:0 2rem 3rem;}
+.hp{width:clamp(100px,22vw,180px);aspect-ratio:3/4;object-fit:cover;opacity:.75;filter:sepia(.3);}
+.hp:nth-child(2){margin-top:2rem;}
+@media(max-width:600px){.hero h1{font-size:2.8rem}.hphotos{display:none}}
+</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<nav>
+  <a class="nb" href="index.html">The Kaboff Cello School<span>Vienna, Virginia</span></a>
+  <button class="hbg" onclick="toggleMobile()"><span></span><span></span><span></span></button>
+  <ul class="nl">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="bio.html">Biography</a></li>
+    <li><a href="suzuki.html">Suzuki Lessons</a></li>
+    <li class="dd"><button>Performances &#9662;</button>
+      <div class="ddm">
+        <a href="solo.html">Student Solo Performances</a>
+        <a href="chamber.html">Chamber Music Performances</a>
+        <a href="choir.html">Cello Choir Performances</a>
+        <a href="johns.html">John's Performances</a>
+      </div>
+    </li>
+    <li class="dd"><button>Resources &#9662;</button>
+      <div class="ddm">
+        <a href="materials.html">Teaching Materials</a>
+        <a href="competitions.html">Competitions &amp; Youth Orchestras</a>
+        <a href="press.html">Articles &amp; Press</a>
+        <a href="lectures.html">Lectures</a>
+        <a href="congresses.html">Cello Congresses</a>
+        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="mm" id="mm">
+  <a href="index.html">Home</a><a href="bio.html">Biography</a><a href="suzuki.html">Suzuki Lessons</a>
+  <div class="mml">Performances</div>
+  <a href="solo.html">Student Solo Performances</a><a href="chamber.html">Chamber Music</a>
+  <a href="choir.html">Cello Choir Performances</a><a href="johns.html">John's Performances</a>
+  <div class="mml">Resources</div>
+  <a href="materials.html">Teaching Materials</a><a href="competitions.html">Competitions</a>
+  <a href="press.html">Articles &amp; Press</a><a href="lectures.html">Lectures</a>
+  <a href="congresses.html">Cello Congresses</a>
+  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+  <a href="contact.html">Contact</a>
+</div>
+<section class="hero">
+  <div class="hbg2"></div><div class="hl"></div><div class="hl"></div>
+  <div class="hc">
+    <p class="sl" style="color:var(--amber);margin-bottom:1.5rem;">Vienna, Virginia &middot; Est. 1995</p>
+    <h1>The Kaboff<br><em>Cello School</em></h1>
+    <div class="hdiv"></div>
+    <p class="htag">Where a Sound Music Education is Top Priority.</p>
+    <p class="hsub">All children can and deserve to be educated musically. The discipline and careful work habits gained from learning an instrument lead to self-confidence that enhances all areas of life.</p>
+    <div class="hact">
+      <a class="bp" href="suzuki.html">Explore Lessons</a>
+      <a class="bo" href="bio.html">Meet John Kaboff</a>
+    </div>
+  </div>
+  <div class="hcl">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTQ3mlqmxrr3p_h5LB70Nqfv9vz46ddNmuf3iyLFSUTejxewqo3J4IADTb0vEAwNlLb2IzyGDbq1paE3pBwjifv0zFhvhVS2CWjsNrucSj5XeUD7J7E4VK4-TQ_N33VvMP4TAWVUcKVIYSwvCAcGRj90nKKnILZd1j3WEDW6dEfsJDXql7XNqidFaN/s842/classical%20open-2.png" alt="Classical Open Stage - Maryland Public Television">
+    <p class="hcl-cap">Classical Open Stage &mdash; Maryland Public Television Broadcast</p>
+  </div>
+  <div class="hphotos">
+    <img class="hp" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr7MjdBM4FJeW8sullvevEhOJ6eO22EMs19a62rJl7ulh2At8Xffh5FGeWrINB9Qf7ay6LncPrikZ3zuRRV5ZMtDMb3zYhrS6Qzill6Er5xp1YCY4owSynoTy87HbE3AoHurtbVKY3i9C5_G7WYPei_U6GoDW0J2GX6kv3T2tsiNWkoWzi0R2wue7K/w387-h485/cello%20pic%205.jpg" alt="Student cellist">
+    <img class="hp" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizgKm1XKPJL3FUSwYaWt6Firn3h-mrR0U4mQ_LVdx4WyNxud1tb7Lu3x1kuASdHRRQbZQ3io1nGwA27rp0VHoS794lPVfb0k3zuiUBbE3mzhJsbJk1aOBqfYHXuBaLiCxVXhYZNm-27Gc/s640/Kaboff+June+13d.jpg" alt="Kaboff School recital">
+    <img class="hp" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQlrc0BTljo3jNJXgFd3UPRn4s8nrt72OaoctiLXHhk-UBXQ1OHOMGnIHjyz1tQfuf5Ogt6DGDGzFqJiJ9dizDHZLQvK-NUXrymxh7alc79RCc5rc50Hv-JkoEczlQgkTF-BKb_sOFPnB4YWAE-T2QG_YVsAXHrG9Z0I_USdWR73vsnAF8YE2ONlRe/w336-h458/Justin%20Lee%20with%20award.jpg" alt="Student with award">
+  </div>
+</section>
+<div class="hilights">
+  <div class="hilights-in">
+    <div><span class="hn">30+</span><span class="hlbl">Years of Teaching</span></div>
+    <div><span class="hn">10</span><span class="hlbl">Suzuki Book Levels</span></div>
+    <div><span class="hn">Carnegie</span><span class="hlbl">Hall Performers</span></div>
+    <div><span class="hn">Yo-Yo Ma</span><span class="hlbl">Endorsed</span></div>
+  </div>
+</div>
+<div class="sec">
+  <p class="sl">What We Offer</p>
+  <h2 style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2rem,5vw,3.5rem);margin-bottom:2rem;">A Full Musical <em style="font-style:italic;color:var(--amber);">Education</em></h2>
+  <div class="cards">
+    <div class="card"><h3>Suzuki Method</h3><p>Specialized lessons for beginners ages 3.5&ndash;7. Parent involvement, loving encouragement, and graded repertoire build confident young musicians from the first lesson.</p></div>
+    <div class="card"><h3>Competition Prep</h3><p>Students regularly earn top prizes in local, regional, and national competitions including Carnegie Hall debut recitals through the American Prot&eacute;g&eacute; program.</p></div>
+    <div class="card"><h3>Cello Choir</h3><p>The Bow Lightlys ensemble performs at Carnegie Hall, the Embassy of France, charity events, and senior living centers &mdash; bringing music to the community.</p></div>
+    <div class="card"><h3>Teaching Materials</h3><p>Original progressive repertoire volumes, scale books, and annotated Bach Suites freely available for students and colleagues to download.</p></div>
+  </div>
+  <div style="text-align:center;margin-top:2rem;"><a class="bp" href="contact.html">Get in Touch</a></div>
+</div>
+<footer>
+  <span class="fb">The Kaboff Cello School</span>
+  <span class="fs">2413 Luckett Avenue &middot; Vienna, VA 22180 &middot; 202 486 8916 &middot; CelloDoctor@aol.com</span>
+  <ul class="fl">
+    <li><a href="index.html">Home</a></li><li><a href="bio.html">Biography</a></li>
+    <li><a href="suzuki.html">Suzuki Lessons</a></li><li><a href="solo.html">Solo Performances</a></li>
+    <li><a href="chamber.html">Chamber Music</a></li><li><a href="choir.html">Cello Choir</a></li>
+    <li><a href="johns.html">John's Performances</a></li><li><a href="materials.html">Teaching Materials</a></li>
+    <li><a href="press.html">Press</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+</footer>
+<div class="a11y-bar">
+  <button class="a11y-toggle" id="a11y-toggle" title="Display Options">&#9881;</button>
+  <div class="a11y-panel" id="a11y-panel">
+    <div><label>Text Size</label><div class="font-btns"><button id="font-dn">A&minus;</button><button id="font-rs">A</button><button id="font-up">A+</button></div></div>
+    <div><label>Color Theme</label><div class="palette">
+      <div class="swatch sw-default" data-theme="default" title="Default"></div>
+      <div class="swatch sw-dark"    data-theme="dark"    title="Dark"></div>
+      <div class="swatch sw-warm"   data-theme="warm"   title="Warm"></div>
+      <div class="swatch sw-sage"   data-theme="sage"   title="Sage"></div>
+      <div class="swatch sw-slate"  data-theme="slate"  title="Slate"></div>
+      <div class="swatch sw-rose"   data-theme="rose"   title="Rose"></div>
+    </div></div>
+  </div>
+</div>
+<script src="shared.js"></script>
+</body>
+</html>
