@@ -1,19 +1,16 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Cello Choir Performances | The Kaboff Cello School</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="shared.css"></head><body>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Cello Choir Performances | The Kaboff Cello School</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
+</head><body>
 <nav>
   <a class="nb" href="index.html">The Kaboff Cello School<span>Vienna, Virginia</span></a>
-  <button class="hbg" onclick="toggleMobile()"><span></span><span></span><span></span></button>
+  <button class="hbg" onclick="toggleMobile()" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
   <ul class="nl">
     <li><a href="index.html">Home</a></li>
     <li><a href="bio.html">Biography</a></li>
     <li><a href="suzuki.html">Suzuki Lessons</a></li>
-    <li class="dd"><button>Performances &#9662;</button>
+    <li class="dd"><button aria-haspopup="true">Performances &#9662;</button>
       <div class="ddm">
         <a href="solo.html">Student Solo Performances</a>
         <a href="chamber.html">Chamber Music Performances</a>
@@ -21,23 +18,23 @@
         <a href="johns.html">John's Performances</a>
       </div>
     </li>
-    <li class="dd"><button>Resources &#9662;</button>
+    <li class="dd"><button aria-haspopup="true">Resources &#9662;</button>
       <div class="ddm">
         <a href="materials.html">Teaching Materials</a>
         <a href="competitions.html">Competitions &amp; Youth Orchestras</a>
         <a href="press.html">Articles &amp; Press</a>
         <a href="lectures.html">Lectures</a>
         <a href="congresses.html">Cello Congresses</a>
-        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
       </div>
     </li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-<div class="mm" id="mm">
+<div class="mm" id="mm" role="navigation" aria-label="Mobile navigation">
   <a href="index.html">Home</a>
   <a href="bio.html">Biography</a>
-  <a href="suzuki.html">Suzuki Cello Lessons</a>
+  <a href="suzuki.html">Suzuki Lessons</a>
   <div class="mml">Performances</div>
   <a href="solo.html">Student Solo Performances</a>
   <a href="chamber.html">Chamber Music Performances</a>
@@ -49,30 +46,43 @@
   <a href="press.html">Articles &amp; Press</a>
   <a href="lectures.html">Lectures</a>
   <a href="congresses.html">Cello Congresses</a>
-  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
   <a href="contact.html">Contact</a>
 </div>
-<div class="ph"><p class="sl">The Bow Lightlys &middot; 2005&ndash;2026</p><h1>Cello Choir <em>Performances</em></h1></div>
+<div class="ph"><span class="sl">The Bow Lightlys &middot; 2005&ndash;2026</span><h1>Cello Choir <em>Performances</em></h1></div>
 <div class="sec" style="max-width:900px;margin:0 auto;">
-  <div style="text-align:center;margin-bottom:3rem;"><img style="max-width:500px;width:100%;border:1px solid var(--border);" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnoiMwaC-JiZ9iwxWJ0ts3_XIgb0qbf6jX1fOKMeAxJuAcY4xzZbb5vrufE6sXRzr19ojd-Q6v-0yW-qUkD3-Q6igwLNMsdoHysRw3lx-cqukqD_iUP8wWn0HE3QKX0t_-ifsK9aoCugw/w490-h352/4girls.jpg" alt="Bow Lightlys through the years"><p style="font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.75rem;">Many close friendships are formed in weekly cello ensemble rehearsals preparing for Carnegie Hall, national cello workshops, and performances with Yo-Yo Ma.</p></div>
+  <div style="text-align:center;margin-bottom:3rem;"><img style="max-width:500px;width:100%;border:1px solid var(--border);" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnoiMwaC-JiZ9iwxWJ0ts3_XIgb0qbf6jX1fOKMeAxJuAcY4xzZbb5vrufE6sXRzr19ojd-Q6v-0yW-qUkD3-Q6igwLNMsdoHysRw3lx-cqukqD_iUP8wWn0HE3QKX0t_-ifsK9aoCugw/w490-h352/4girls.jpg" alt="Bow Lightlys through the years"><p style="font-family:'Josefin Sans',sans-serif;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.75rem;">Many close friendships are formed in weekly cello ensemble rehearsals preparing for Carnegie Hall, national cello workshops, and performances with Yo-Yo Ma.</p></div>
+
   <div class="cy"><div class="cyh">2026 Spring Fundraiser</div><div class="cb"><img class="cis" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVerbq1Ehzy9WhpdPKESn9RHDb56o3IENPqY-o6tHRTc2vPjfa8cctgzCSTw_bTNn3XBGxBafYS0v5qCyZ4ED5J62GmsoFwBzFDJJg7vMBTy9eK_DVmmL8bLVcQ51hSxje-YPVKvZXz3Rxk3RXSeD81BgLDpr5PC7IOMkUEHMeEstAlTimekqg3iX3C9Y/w318-h398/3D60C797-1B63-4EA9-AF0C-9056C8FBF6DE.JPEG" alt="2026 Bow Lightlys"><ul class="cl"><li><a href="https://youtu.be/3TOxWbmo8TA" target="_blank">Rondeau &mdash; Jean Mouret</a></li><li><a href="https://youtu.be/FB060s7Ufvs" target="_blank">Prelude to a Te Deum &mdash; Marc Charpentier</a></li><li><a href="https://youtu.be/i3ObrGIJ3j0" target="_blank">Jesu, Joy of Man's Desiring &mdash; J.S. Bach</a></li><li><a href="https://youtu.be/7SWkvG6QiWw" target="_blank">Legend &mdash; Tchaikovsky</a></li><li><a href="https://youtu.be/OVdyP-e5-FA" target="_blank">Yesterday &mdash; Lennon &amp; McCartney</a></li><li><a href="https://youtu.be/FoHIIaEhdxM" target="_blank">Allegro Moderato &mdash; J.S. Bach</a></li><li><a href="https://youtu.be/ox40ALVj4To" target="_blank">Serenade &mdash; Goltermann</a></li><li><a href="https://youtu.be/gqbsHR_NhjA" target="_blank">Allegro Maestoso &mdash; Handel</a></li><li><a href="https://youtu.be/yh6PyU5TemY" target="_blank">Overture to the Barber of Seville</a></li><li><a href="https://youtu.be/LB_n9svLqAo" target="_blank">The Erlking</a></li><li><a href="https://youtu.be/CEgeB9vuV1k" target="_blank">Tonight &mdash; from West Side Story, Bernstein</a></li><li><a href="https://youtu.be/hwDnvA91vjE" target="_blank">Yiddische Mama &mdash; Jewish Folk Song</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2025 Tennessee Cello Workshop</div><div class="cb"><img class="ci" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTSic9iy4A4YFfjiIWsVp1Qjtafl-vCT2cOZC3wVM7QBagGMqXTfeH1eeB71ZO_tVuMuHqPUiToIhTknLGwuE1C79dFp7tY58WmDtBNTtdeazUSpSuG1fIDi6E_dkWxeWJrvkUa0m3SFWQrplRtvI_6m_zFytFMiHQtPhEqHRI1sEqNe0gm_1Va4FgO_U/w440-h330/IMG_7704.jpeg" alt="2025 TCW"><ul class="cl"><li><a href="https://youtu.be/MnIZlVT7-nA" target="_blank">"Tonight" from West Side Story &mdash; TCW 2025</a></li><li><a href="https://youtu.be/1GEFtnmIIA8" target="_blank">Washington Post March &mdash; J. Sousa, TCW 2025</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2024 Carnegie Hall Concert</div><div class="cb"><img class="ci" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio9e8Z6x3_Kb6k6CbBjXunnHAu2yqBee7B2sXWyVxaVnpirPFE1plyCPlgROhjeQvx17on4Sw4Eyj-bAHJbIwp5-pAYZr12KyJ9UwBqvyVi0Idiw7W0lISyUnAbYJeOUalEHBNw5s36UDuHI4bB47NPpxwSSvK1Vdo0YJ3NDUuGFetdWGc3fMDdIhPMo4/w555-h295/Screenshot%202024-05-25%20at%209.23.58%20AM.png" alt="2024 Carnegie Hall"><ul class="cl"><li><a href="https://youtu.be/1UPaaS4NHdU" target="_blank">Bach Concerto for 2 Violins BWV 1043 arr. Cello Trio</a></li><li><a href="https://youtu.be/Q02Ut7tBF-8" target="_blank">Brandenburg Concerto No.3 G Major, BWV 1048 &mdash; Bach</a></li><li><a href="https://youtu.be/4y_goHrx5kw" target="_blank">Solomon HWV 67 "Arrival of the Queen of Sheba" &mdash; Handel</a></li><li><a href="https://youtu.be/5A5xRkaZKHQ" target="_blank">Concerto for Two Cellos G minor, RV 531 &mdash; Vivaldi</a></li><li><a href="https://youtu.be/hPmlqRK2y8E" target="_blank">Carnegie Hall Complete Concert</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2024 Tennessee Cello Workshop</div><div class="cb"><ul class="cl"><li><a href="https://youtu.be/yznbYiPHpFo" target="_blank">Long, Long Ago for Cello Ensemble</a></li><li><a href="https://youtu.be/FUUIbzKaUn8" target="_blank">Simple Gifts &mdash; A Shaker Hymn</a></li><li><a href="https://youtu.be/q_cJaxHTnmk" target="_blank">Brandenburg Concerto No.3 &mdash; Bach</a></li><li><a href="https://youtu.be/9UcLhoOl0kA" target="_blank">Handel "Arrival of the Queen of Sheba"</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2023 Tennessee Cello Workshop</div><div class="cb"><ul class="cl"><li><a href="https://youtu.be/8Ylo8g1zNgw" target="_blank">2023 Concert of the Bow Lightlys &mdash; Complete</a></li><li><a href="https://youtu.be/YCwfA9n4Yo4" target="_blank">Bachianas Brasileiras No.1, Prel&uacute;dio &mdash; H. Villa-Lobos</a></li><li><a href="https://youtu.be/fyayDywZ9NU" target="_blank">Libertango arr. cello quartet &mdash; A. Piazzolla</a></li><li><a href="https://youtu.be/LL5c6KE7UPw" target="_blank">Por una Cabeza &mdash; Carlos Gardel</a></li><li><a href="https://youtu.be/6GHT2zR4Bbs" target="_blank">Danse Macabre, Op.40 &mdash; C. Saint-Sa&euml;ns</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2022 Carnegie Hall &mdash; Progressive Musicians Competition Laureates</div><div class="cb"><img class="ci" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj00U9K8uYGj9YupU3iyXxyRJ6fgEBhhI4CJ4bCArCLlHQhcGnvYa-MEiUiCv3ehn8mZlAkKfW9PkS4l-XdYwDBz1ephNyVdIkV3urWzn2WToZ5JJ7x0LItxS_zHXjr8M5MB-EKBeERMcbkOn-yYQevOmFaoETTeEkZjNU3_M97DqUwM2So-5B4ohaz/s320/Bow%20Lightlys5.jpg" alt="Bow Lightlys Carnegie Hall 2022"><img class="cis" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZqkCPf02u8KKLPRJ1uZa_SaTd8_ITJ_OhcuYAIzNQmfSnXGvWfWBnU4JMQTADWEq8RctWbB5hDwjn4jrWHUGmMo0aLcn0CJpnz5k27GIoNmLg8c8QAzqTwQjGwgwQRVhvm7dXVlc7LcIOz4R-1hM7Wrbzdk_OfQN9t5GmT46Yt4q79C0ef-YY5Ph4/w398-h307/progressive%20CERT.png" alt="Progressive Musicians Certificate"><ul class="cl"><li><a href="https://youtu.be/-zd3FB1PwXc" target="_blank">Danse Macabre, Op.40 &mdash; C. Saint-Sa&euml;ns (Carnegie 2022)</a></li><li><a href="https://youtu.be/x7JOc6mTswQ" target="_blank">Themes from Schindler's List &mdash; J. Williams (Carnegie 2022)</a></li><li><a href="https://drive.google.com/file/d/10DrXXXu9pSJptdG9XIiXwT6oM_kug5Oq/view" target="_blank">Full Carnegie Hall Concert (Drive link)</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2022 Tennessee Cello Workshop &mdash; John's TV Interview</div><div class="cb"><ul class="cl"><li><a href="https://www.youtube.com/watch?v=02dvdCiDSpo" target="_blank">John's TV Interview</a></li><li><a href="https://www.youtube.com/watch?v=twyD8WDVltY" target="_blank">Bow Lightlys Cello Choir Concert 2022 &mdash; Full Concert</a></li><li><a href="https://youtu.be/IWYwx-uWhXg" target="_blank">Handel "Arrival of the Queen of Sheba" &mdash; TCW 2022</a></li><li><a href="https://youtu.be/W2_c7QalC9A" target="_blank">Bach Concerto BWV 1043 arr. Cello Trio &mdash; TCW 2022</a></li><li><a href="https://youtu.be/8uyXVtcrofs" target="_blank">Corelli "Christmas" Concerto Grosso &mdash; TCW 2022</a></li><li><a href="https://youtu.be/mBdE6WXF2ws" target="_blank">Themes from Schindler's List &mdash; TCW 2022</a></li><li><a href="https://youtu.be/uiHQ73zqi-4" target="_blank">Vivaldi Concerto for 2 Cellos G minor &mdash; TCW 2022</a></li><li><a href="https://youtu.be/l32X1y_tX3E" target="_blank">Yiddishe Mama &mdash; TCW 2022</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2021 June Concert &amp; Tennessee Cello Workshop</div><div class="cb"><ul class="cl"><li><a href="https://youtu.be/BnuCz_NAdy4" target="_blank">The Prayer No.1 from Jewish Life &mdash; Ernst Bloch</a></li><li><a href="https://youtu.be/cxMl7cq1QAE" target="_blank">Theme from "The Godfather" &mdash; Nino Rota</a></li><li><a href="https://youtu.be/Bvtm027Oizg" target="_blank">Recorded Concert &mdash; Tennessee Cello Workshop 2021</a></li><li><a href="https://youtu.be/v_AwbD3G5Mw" target="_blank">Bohemian Rhapsody (RhapCity)</a></li><li><a href="https://youtu.be/Di9_br7XEjg" target="_blank">The Sound of Silence &mdash; Simon &amp; Garfunkel</a></li><li><a href="https://youtu.be/2zmYXhTL6dE" target="_blank">Stairway to Heaven</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2019 Cello Choir Camp &mdash; The Inn at Ragged Edge, Chambersburg, PA</div><div class="cb"><img class="ci" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6slfcVBJsJiVqTGjAjXhRwi_FKI_c4vlKQrnI5Vlx5ZDlfOuwBVKCaskRos-DvXPezO3YWqZBp9I5cN9F9zAuxLVV7GIEZqHAqrQTpaxN5BjwuAmGbapACfr5_GxkyqUDjRhRPuPZjhY/s320/IMG_4831.jpg" alt="2019 Cello Choir Camp"><p>14 students practiced cello choir 6&ndash;7 hours a day while also enjoying mini-golf, bowling, roller blading, and more!</p><ul class="cl"><li><a href="https://youtu.be/vHMqCsxgvQM" target="_blank">Prelude to a Te Deum &mdash; Marc Antoine Charpentier</a></li><li><a href="https://youtu.be/46B8Btmth6c" target="_blank">Fanfare-Rondeau from "Suite de Symphonies" &mdash; Mouret</a></li><li><a href="https://youtu.be/sRmyu8-h1fM" target="_blank">Allegro Maestoso from "The Water Music" &mdash; Handel</a></li><li><a href="https://youtu.be/6_x4YYspE88" target="_blank">Vivaldi "Autumn" &mdash; Concerto No.3, Op.8, RV 293</a></li><li><a href="https://youtu.be/e1a2vX7VZQQ" target="_blank">"Air" from English Suite No.3 &mdash; Bach</a></li><li><a href="https://youtu.be/JmjhGpf75P0" target="_blank">Jesu, Joy of Man's Desiring &mdash; J.S. Bach</a></li><li><a href="https://youtu.be/3CELlReYawI" target="_blank">Rondo alla Turca &mdash; Mozart</a></li><li><a href="https://youtu.be/P19ByAHqv5s" target="_blank">Libertango &mdash; Astor Piazzolla</a></li><li><a href="https://youtu.be/NMyqSS6l1LI" target="_blank">Themes from Schindler's List &mdash; John Williams</a></li><li><a href="https://youtu.be/QgB2X85nwjQ" target="_blank">Requiem, Op.66 for 3 cellos &mdash; David Popper</a></li><li><a href="https://youtu.be/phz6mWV1Cik" target="_blank">Peer Gynt Suite No.1 "Morning Mood" &mdash; Edvard Grieg</a></li><li><a href="https://youtu.be/2Xy2OBPuJP4" target="_blank">Bohemian Rhapsody &mdash; Queen</a></li><li><a href="https://youtu.be/2X_YhjxLYAw" target="_blank">Danse Macabre, Op.40 &mdash; C. Saint-Sa&euml;ns</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2018 Cello Choir Camp &mdash; Chambersburg, PA</div><div class="cb"><img class="cis" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkPYbxBY8AezalIRNi-sCspM_cZwJ39zNMzhYWsYMBxHtJyKmcVrvzvrvWodfzqbsGZmoo7UQTKN3-HNE4-5tRvIZ_vP1557fyx08d0-eBSEnmexIxwKzXYiGtcahTIRF6NpoNU4y_PC8/s200/Cello+camp+2018.jpg" alt="2018 Cello Camp"><ul class="cl"><li><a href="https://youtu.be/BiaitDZrSsI" target="_blank">Overture to the Barber of Seville</a></li><li><a href="https://youtu.be/5ITqfEmdtQ0" target="_blank">Montevideo &mdash; arr. Merle Isaac</a></li><li><a href="https://youtu.be/PmCJ8Uczgj0" target="_blank">Bohemian Rhapsody &mdash; Queen</a></li><li><a href="https://youtu.be/USuwj0aASDg" target="_blank">Arrival of the Queen of Sheba &mdash; Handel</a></li><li><a href="https://youtu.be/JCnxTr0JP_o" target="_blank">The Erlking &mdash; Schubert/Goethe</a></li><li><a href="https://youtu.be/ZTZnnoR7rlc" target="_blank">Vivaldi Concerto for 2 cellos G minor (cello quartet)</a></li><li><a href="https://youtu.be/g_ckzdWph7c" target="_blank">Ashokan Farewell &mdash; Jay Ungar</a></li><li><a href="https://youtu.be/zeKaQ8UV8PE" target="_blank">Serenade &mdash; Goltermann</a></li><li><a href="https://youtu.be/tUJAC6SHhas" target="_blank">The Entertainer &mdash; Scott Joplin</a></li><li><a href="https://youtu.be/P3yMyV_8m1A" target="_blank">Themes from Schindler's List for Cello Ensemble</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2017 Classical Open Stage &mdash; Maryland Public Television</div><div class="cb"><img class="cis" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJSF10ibn2-3631U_QnDY2P7h8FNCIh9D6t4RmCQRpmp5nXs-Spl4o3ziVW_pxGX3TZZAMHh007hd_38q5qmFQGPNC44rLneVggMeqOfD_CtcI8Bvg5XmpHwWtFx069DsTY8FYVfSLFaM/s320/Screen+Shot+2021-08-10+at+8.50.33+PM.png" alt="2017 Classical Open Stage"><ul class="cl"><li><a href="https://youtu.be/ijY6GHNnpRM" target="_blank">Air from English Suite No.3 &mdash; J.S. Bach</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2017 Cello Choir Concert &mdash; Church of the Holy Cross, Vienna, VA</div><div class="cb"><ul class="cl"><li><a href="https://youtu.be/WcCWY7nevwI" target="_blank">Air &mdash; J.S. Bach</a></li><li><a href="https://youtu.be/40Y73u5F2J8" target="_blank">Canon in D &mdash; J. Pachelbel</a></li><li><a href="https://youtu.be/D5WVjf-Tvuc" target="_blank">Arrival of the Queen of Sheba &mdash; G.F. Handel</a></li><li><a href="https://youtu.be/UD6KFGqXy-s" target="_blank">Sheep May Safely Graze &mdash; J.S. Bach</a></li><li><a href="https://youtu.be/-T30hNCZ_po" target="_blank">Star Wars</a></li><li><a href="https://youtu.be/qI_2OOqRCOk" target="_blank">Legend &mdash; Tchaikovsky</a></li><li><a href="https://youtu.be/ojiF_UkTF-s" target="_blank">Vivaldi Concerto for 2 cellos G minor</a></li><li><a href="https://youtu.be/Mehf6ZtVdOc" target="_blank">Concerto Grosso "Christmas" &mdash; Corelli</a></li><li><a href="https://youtu.be/seuP8jYIZBQ" target="_blank">Yesterday &mdash; John Lennon</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">2016 Classical Open Stage &mdash; Maryland Public Television</div><div class="cb"><img class="cis" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0Q0U9h_h3MdiNDSOK0xjBTVnWLzcBSKjzXAchD_PsbTTGTQrZtRuf01q42d9_FEBnr2bC2widQvD-jTofZMVT99Iw6dNU-c8wTK2UXOQQTPvOLs8089Sxzv9w1BCKXIotpEjacQgaSig/s320/Screen+Shot+2021-08-10+at+8.44.45+PM.png" alt="2016 Classical Open Stage"><ul class="cl"><li><a href="https://youtu.be/jWwhuRcORJY" target="_blank">Canon a Due &mdash; Domenico Gabrielli (Matthew C &amp; Emily M)</a></li><li><a href="https://youtu.be/c8p0Cq2c6cM" target="_blank">Vivaldi Concerto G minor for 2 cellos (cello quartet)</a></li></ul></div></div>
+
   <div class="cy"><div class="cyh">Earlier Concerts (2005&ndash;2013)</div><div class="cb">
     <p><strong>2013 Fair Hill ES Concert</strong></p><ul class="cl"><li><a href="http://youtu.be/mw2YG-jNFGo" target="_blank">Allegro Moderato</a></li></ul>
     <p style="margin-top:1rem;"><strong>2012 Cello Choir Concert @ Ashby Ponds</strong></p><ul class="cl"><li><a href="http://youtu.be/lRmU5VAZ-Ps" target="_blank">The Easy Winners &amp; Entertainer</a></li><li><a href="http://youtu.be/4a9y1aF3YIQ" target="_blank">Allegro Moderato</a></li><li><a href="http://youtu.be/dldUeeB8h8E" target="_blank">Serenade</a></li><li><a href="http://youtu.be/15-8W-w8PV8" target="_blank">Jesu, Joy of Man's Desiring</a></li><li><a href="http://youtu.be/FdNhcjq_HrE" target="_blank">Legend</a></li><li><a href="http://youtu.be/-BzkEpBfApc" target="_blank">Canon in D &mdash; J. Pachelbel</a></li><li><a href="http://youtu.be/3ZI37-K8Q3c" target="_blank">Rondeau</a></li><li><a href="http://youtu.be/q4oXBIN_Xe0" target="_blank">Yesterday</a></li></ul>
-    <p style="margin-top:1rem;"><strong>2011 Arlington Traditional School</strong></p><ul class="cl"><li><a href="http://www.youtube.com/watch?v=nTWHUGdt4-Q" target="_blank">Yesterday</a></li><li><a href="http://www.youtube.com/watch?v=HOSGMZBz8c0" target="_blank">Ball Game</a></li></ul>
-    <p style="margin-top:1rem;"><strong>2010 Mt. Olivet Methodist Church</strong></p><ul class="cl"><li><a href="http://www.youtube.com/watch?v=CMsnrTzuokY" target="_blank">Jingle Bells</a></li><li><a href="http://www.youtube.com/watch?v=4v8kdycBRU4" target="_blank">Songs of Chanukah</a></li><li><a href="http://www.youtube.com/watch?v=7sXLlTzPObE" target="_blank">Carol of the Bells</a></li><li><a href="http://www.youtube.com/watch?v=ShvNnvAjqnM" target="_blank">Jesu, Joy</a></li><li><a href="http://www.youtube.com/watch?v=3H1cjcQC2-A" target="_blank">Allegro Maestoso</a></li><li><a href="http://www.youtube.com/watch?v=aMXU3Z6FbAw" target="_blank">Prelude to a Te Deum</a></li><li><a href="http://www.youtube.com/watch?v=1m7QotQKJ0k" target="_blank">Rondeau &mdash; Mouret</a></li><li><a href="http://www.youtube.com/watch?v=jOWtAsVLnZU" target="_blank">Legend &mdash; Tchaikovsky</a></li><li><a href="http://www.youtube.com/watch?v=hM6LCaN_R7I" target="_blank">Serenade &mdash; Goltermann</a></li></ul>
+    <p style="margin-top:1rem;"><strong>2010 Mt. Olivet Methodist Church</strong></p><ul class="cl"><li><a href="http://www.youtube.com/watch?v=CMsnrTzuokY" target="_blank">Jingle Bells</a></li><li><a href="http://www.youtube.com/watch?v=4v8kdycBRU4" target="_blank">Songs of Chanukah</a></li><li><a href="http://www.youtube.com/watch?v=ShvNnvAjqnM" target="_blank">Jesu, Joy</a></li><li><a href="http://www.youtube.com/watch?v=3H1cjcQC2-A" target="_blank">Allegro Maestoso</a></li><li><a href="http://www.youtube.com/watch?v=aMXU3Z6FbAw" target="_blank">Prelude to a Te Deum</a></li><li><a href="http://www.youtube.com/watch?v=1m7QotQKJ0k" target="_blank">Rondeau &mdash; Mouret</a></li><li><a href="http://www.youtube.com/watch?v=jOWtAsVLnZU" target="_blank">Legend &mdash; Tchaikovsky</a></li><li><a href="http://www.youtube.com/watch?v=hM6LCaN_R7I" target="_blank">Serenade &mdash; Goltermann</a></li></ul>
     <p style="margin-top:1rem;"><strong>2005 McLean High School</strong></p><ul class="cl"><li><a href="http://www.youtube.com/watch?v=GHvCQ18XJMw" target="_blank">The Entertainer &middot; Yesterday &middot; Eleanor Rigby</a></li><li><a href="http://www.youtube.com/watch?v=gCFcmAL3fg0" target="_blank">Pachelbel Canon</a></li><li><a href="http://www.youtube.com/watch?v=nN1EgZ9PLJk" target="_blank">Allegro Maestoso</a></li><li><a href="http://www.youtube.com/watch?v=W3r-EcAdABc" target="_blank">Air &mdash; Bach</a></li><li><a href="http://www.youtube.com/watch?v=r3Wo8rVuF8c" target="_blank">Gabrielli Canon</a></li><li><a href="http://www.youtube.com/watch?v=ipE5uZ0q2ME" target="_blank">Jesu, Joy</a></li><li><a href="http://www.youtube.com/watch?v=l1vJISrg-Kw" target="_blank">Telemann Concerto for 4 cellos</a></li><li><a href="http://www.youtube.com/watch?v=5VgE4gHPxvA" target="_blank">Rondeau &mdash; Mouret</a></li></ul>
   </div></div>
 </div>
@@ -87,28 +97,63 @@
     <li><a href="press.html">Press</a></li><li><a href="contact.html">Contact</a></li>
   </ul>
 </footer>
+
 <div class="a11y-bar">
-  <button class="a11y-toggle" id="a11y-toggle" title="Accessibility &amp; Display Options" aria-label="Open display settings">&#9881;</button>
-  <div class="a11y-panel" id="a11y-panel">
+  <button class="a11y-toggle" id="a11y-toggle" title="Display &amp; Color Options" aria-label="Open display settings">&#9881;</button>
+  <div class="a11y-panel" id="a11y-panel" role="dialog" aria-label="Display settings">
+
     <div>
       <label>Text Size</label>
-      <div class="font-btns">
-        <button id="font-dn" title="Decrease font size">A&minus;</button>
-        <button id="font-rs" title="Reset font size">A</button>
-        <button id="font-up" title="Increase font size">A+</button>
+      <div class="font-row">
+        <button id="font-dn" aria-label="Decrease text size">A&minus;</button>
+        <button id="font-rs" aria-label="Reset text size">A</button>
+        <button id="font-up" aria-label="Increase text size">A+</button>
       </div>
     </div>
+
     <div>
-      <label>Color Theme</label>
-      <div class="palette">
-        <div class="swatch sw-default" data-theme="default" title="Default (warm cream)"></div>
-        <div class="swatch sw-dark"  data-theme="dark"  title="Dark mode"></div>
-        <div class="swatch sw-warm"  data-theme="warm"  title="Warm ivory"></div>
-        <div class="swatch sw-sage"  data-theme="sage"  title="Sage green"></div>
-        <div class="swatch sw-slate" data-theme="slate" title="Slate blue"></div>
-        <div class="swatch sw-rose"  data-theme="rose"  title="Rose"></div>
+      <label>Background Color</label>
+      <div class="color-pick-row">
+        <input type="color" id="bg-picker" value="#ffffff" title="Pick a custom background color" aria-label="Custom background color">
+        <div class="color-pick-preview" id="color-preview" style="background:#ffffff;"></div>
+        <span class="color-pick-label">Custom</span>
+        <button class="color-reset" id="color-reset" title="Reset to white">Reset</button>
       </div>
     </div>
+
+    <div>
+      <label>Color Theme Presets</label>
+      <div class="theme-grid">
+        <div class="theme-opt active" data-theme="white">
+          <div class="swatch sw-white"></div><span class="sw-lbl">White</span>
+        </div>
+        <div class="theme-opt" data-theme="parchment">
+          <div class="swatch sw-parchment"></div><span class="sw-lbl">Parchment</span>
+        </div>
+        <div class="theme-opt" data-theme="ivory">
+          <div class="swatch sw-ivory"></div><span class="sw-lbl">Ivory</span>
+        </div>
+        <div class="theme-opt" data-theme="linen">
+          <div class="swatch sw-linen"></div><span class="sw-lbl">Linen</span>
+        </div>
+        <div class="theme-opt" data-theme="sage">
+          <div class="swatch sw-sage"></div><span class="sw-lbl">Sage</span>
+        </div>
+        <div class="theme-opt" data-theme="slate">
+          <div class="swatch sw-slate"></div><span class="sw-lbl">Slate</span>
+        </div>
+        <div class="theme-opt" data-theme="rose">
+          <div class="swatch sw-rose"></div><span class="sw-lbl">Rose</span>
+        </div>
+        <div class="theme-opt" data-theme="ocean">
+          <div class="swatch sw-ocean"></div><span class="sw-lbl">Ocean</span>
+        </div>
+        <div class="theme-opt" data-theme="sand">
+          <div class="swatch sw-sand"></div><span class="sw-lbl">Sand</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 <script src="shared.js"></script>

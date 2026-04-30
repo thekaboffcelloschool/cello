@@ -1,19 +1,16 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Suzuki Cello Lessons | The Kaboff Cello School</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="shared.css"></head><body>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Suzuki Cello Lessons | The Kaboff Cello School</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
+</head><body>
 <nav>
   <a class="nb" href="index.html">The Kaboff Cello School<span>Vienna, Virginia</span></a>
-  <button class="hbg" onclick="toggleMobile()"><span></span><span></span><span></span></button>
+  <button class="hbg" onclick="toggleMobile()" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
   <ul class="nl">
     <li><a href="index.html">Home</a></li>
     <li><a href="bio.html">Biography</a></li>
     <li><a href="suzuki.html">Suzuki Lessons</a></li>
-    <li class="dd"><button>Performances &#9662;</button>
+    <li class="dd"><button aria-haspopup="true">Performances &#9662;</button>
       <div class="ddm">
         <a href="solo.html">Student Solo Performances</a>
         <a href="chamber.html">Chamber Music Performances</a>
@@ -21,23 +18,23 @@
         <a href="johns.html">John's Performances</a>
       </div>
     </li>
-    <li class="dd"><button>Resources &#9662;</button>
+    <li class="dd"><button aria-haspopup="true">Resources &#9662;</button>
       <div class="ddm">
         <a href="materials.html">Teaching Materials</a>
         <a href="competitions.html">Competitions &amp; Youth Orchestras</a>
         <a href="press.html">Articles &amp; Press</a>
         <a href="lectures.html">Lectures</a>
         <a href="congresses.html">Cello Congresses</a>
-        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
       </div>
     </li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-<div class="mm" id="mm">
+<div class="mm" id="mm" role="navigation" aria-label="Mobile navigation">
   <a href="index.html">Home</a>
   <a href="bio.html">Biography</a>
-  <a href="suzuki.html">Suzuki Cello Lessons</a>
+  <a href="suzuki.html">Suzuki Lessons</a>
   <div class="mml">Performances</div>
   <a href="solo.html">Student Solo Performances</a>
   <a href="chamber.html">Chamber Music Performances</a>
@@ -49,27 +46,27 @@
   <a href="press.html">Articles &amp; Press</a>
   <a href="lectures.html">Lectures</a>
   <a href="congresses.html">Cello Congresses</a>
-  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank">2025&ndash;2026 Info Pak</a>
+  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
   <a href="contact.html">Contact</a>
 </div>
-<div class="ph"><p class="sl">For Beginning Students &middot; Ages 3.5&ndash;7</p><h1>Suzuki <em>Cello Lessons</em></h1></div>
+<div class="ph"><span class="sl">For Beginning Students &middot; Ages 3.5&ndash;7</span><h1>Suzuki <em>Cello Lessons</em></h1></div>
 <div class="sec">
-<p style="max-width:800px;margin:0 auto 3rem;font-size:1.05rem;color:var(--wl);line-height:1.9;">Suzuki-style cello lessons are most suited for beginning students ages 3.5&ndash;7. John Kaboff has trained extensively at all 10 book levels with master Suzuki teacher trainers. The philosophy centers on parent responsibility, loving encouragement, and constant repetition as the foundation for musical growth.</p>
+<p style="max-width:800px;margin:0 auto 2.5rem;font-size:1.05rem;color:var(--text2);line-height:1.9;">Suzuki-style cello lessons are most suited for beginning students ages 3.5&ndash;7. John Kaboff has trained extensively at all 10 book levels with master Suzuki teacher trainers. The philosophy centers on parent responsibility, loving encouragement, and constant repetition as the foundation for musical growth.</p>
 <div class="spill">
   <div class="pill"><h3>Parent Involvement</h3><p>Parents attend lessons and serve as home teachers during the week, reinforcing teaching points verbally to create a consistent, enjoyable learning environment.</p></div>
   <div class="pill"><h3>Early Beginning</h3><p>The early years are crucial for developing mental processes and muscle coordination. Formal training may begin from age 3.5 onward.</p></div>
   <div class="pill"><h3>Listening</h3><p>Listening to music every day is essential &mdash; especially pieces in the repertoire books &mdash; so that students can make their hands recreate what they have heard and can sing.</p></div>
-  <div class="pill"><h3>Repetition</h3><p>Constant repetition is essential. Repeating each note, group of notes, and technical points will reinforce skill and gradually allow growth into new, more sophisticated levels.</p></div>
+  <div class="pill"><h3>Repetition</h3><p>Constant repetition is essential. Repeating each note, group of notes, and technical points will reinforce skill and gradually allow growth into new levels.</p></div>
   <div class="pill"><h3>Encouragement</h3><p>Each child's effort is met with sincere praise. Each child learns at his or her own rate, building on small steps. Children are encouraged to support each other.</p></div>
-  <div class="pill"><h3>Group Learning</h3><p>In addition to private lessons, children participate in regular group lessons designed as a chamber music experience &mdash; learning to blend different musical parts.</p></div>
+  <div class="pill"><h3>Group Learning</h3><p>In addition to private lessons, children participate in group lessons designed as a chamber music experience &mdash; learning to blend different musical parts.</p></div>
 </div>
-<h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;margin:3rem 0 1.5rem;max-width:800px;margin-left:auto;margin-right:auto;">Student Recordings</h3>
-<div style="max-width:800px;margin:0 auto;display:grid;gap:.75rem;">
-  <div style="background:var(--card-bg);border:1px solid var(--border);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><p style="font-size:.9rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:200;letter-spacing:.1em;text-transform:uppercase;margin:0;">Justin L., Age 6</p><a style="color:var(--amber);text-decoration:none;font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.1em;" href="https://youtu.be/FeR66-fNBjw" target="_blank">&#9658; Bach Suite No.1, Prelude</a></div>
-  <div style="background:var(--card-bg);border:1px solid var(--border);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><p style="font-size:.9rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:200;letter-spacing:.1em;text-transform:uppercase;margin:0;">Naomi, Age 6</p><a style="color:var(--amber);text-decoration:none;font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.1em;" href="https://youtu.be/h7uxbT3NNuU" target="_blank">&#9658; Rigadoon &mdash; H. Purcell</a></div>
-  <div style="background:var(--card-bg);border:1px solid var(--border);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><p style="font-size:.9rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:200;letter-spacing:.1em;text-transform:uppercase;margin:0;">Finnegan, Age 4</p><a style="color:var(--amber);text-decoration:none;font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.1em;" href="https://www.youtube.com/watch?v=5RjxGCEknxo" target="_blank">&#9658; Twinkle, Twinkle Little Star</a></div>
-  <div style="background:var(--card-bg);border:1px solid var(--border);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><p style="font-size:.9rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:200;letter-spacing:.1em;text-transform:uppercase;margin:0;">Jonah L., Age 8 &middot; 2nd Place, American Protege 2016</p><a style="color:var(--amber);text-decoration:none;font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.1em;" href="https://youtu.be/pYppHFgckhM" target="_blank">&#9658; Chanson Triste &mdash; Carnegie Hall</a></div>
-  <div style="background:var(--card-bg);border:1px solid var(--border);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><p style="font-size:.9rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:200;letter-spacing:.1em;text-transform:uppercase;margin:0;">Aidan, Age 7</p><a style="color:var(--amber);text-decoration:none;font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.1em;" href="https://youtu.be/h791jwepkvA" target="_blank">&#9658; Go Tell Aunt Rhody</a></div>
+<p class="sec-label" style="margin-top:3rem;">Student Recordings</p>
+<div style="max-width:800px;margin:0 auto;display:grid;gap:.5rem;">
+  <div style="background:var(--surface);border:1px solid var(--border);padding:1.1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><span style="font-size:.88rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.08em;">Justin L., Age 6</span><a style="color:var(--accent2);text-decoration:none;font-size:.9rem;" href="https://youtu.be/FeR66-fNBjw" target="_blank">&#9658; Bach Suite No.1, Prelude</a></div>
+  <div style="background:var(--surface);border:1px solid var(--border);padding:1.1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><span style="font-size:.88rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.08em;">Naomi, Age 6</span><a style="color:var(--accent2);text-decoration:none;font-size:.9rem;" href="https://youtu.be/h7uxbT3NNuU" target="_blank">&#9658; Rigadoon &mdash; H. Purcell</a></div>
+  <div style="background:var(--surface);border:1px solid var(--border);padding:1.1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><span style="font-size:.88rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.08em;">Finnegan, Age 4</span><a style="color:var(--accent2);text-decoration:none;font-size:.9rem;" href="https://www.youtube.com/watch?v=5RjxGCEknxo" target="_blank">&#9658; Twinkle, Twinkle Little Star</a></div>
+  <div style="background:var(--surface);border:1px solid var(--border);padding:1.1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><span style="font-size:.88rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.08em;">Aidan, Age 7</span><a style="color:var(--accent2);text-decoration:none;font-size:.9rem;" href="https://youtu.be/h791jwepkvA" target="_blank">&#9658; Go Tell Aunt Rhody</a></div>
+  <div style="background:var(--surface);border:1px solid var(--border);padding:1.1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;"><span style="font-size:.88rem;color:var(--muted);font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.08em;">Jonah L., Age 8 &middot; 2nd Place, American Prot&eacute;g&eacute; 2016</span><a style="color:var(--accent2);text-decoration:none;font-size:.9rem;" href="https://youtu.be/pYppHFgckhM" target="_blank">&#9658; Chanson Triste &mdash; Carnegie Hall</a></div>
 </div>
 <div style="text-align:center;margin-top:3rem;"><a class="bp" href="contact.html">Inquire About Lessons</a></div>
 </div>
@@ -84,28 +81,63 @@
     <li><a href="press.html">Press</a></li><li><a href="contact.html">Contact</a></li>
   </ul>
 </footer>
+
 <div class="a11y-bar">
-  <button class="a11y-toggle" id="a11y-toggle" title="Accessibility &amp; Display Options" aria-label="Open display settings">&#9881;</button>
-  <div class="a11y-panel" id="a11y-panel">
+  <button class="a11y-toggle" id="a11y-toggle" title="Display &amp; Color Options" aria-label="Open display settings">&#9881;</button>
+  <div class="a11y-panel" id="a11y-panel" role="dialog" aria-label="Display settings">
+
     <div>
       <label>Text Size</label>
-      <div class="font-btns">
-        <button id="font-dn" title="Decrease font size">A&minus;</button>
-        <button id="font-rs" title="Reset font size">A</button>
-        <button id="font-up" title="Increase font size">A+</button>
+      <div class="font-row">
+        <button id="font-dn" aria-label="Decrease text size">A&minus;</button>
+        <button id="font-rs" aria-label="Reset text size">A</button>
+        <button id="font-up" aria-label="Increase text size">A+</button>
       </div>
     </div>
+
     <div>
-      <label>Color Theme</label>
-      <div class="palette">
-        <div class="swatch sw-default" data-theme="default" title="Default (warm cream)"></div>
-        <div class="swatch sw-dark"  data-theme="dark"  title="Dark mode"></div>
-        <div class="swatch sw-warm"  data-theme="warm"  title="Warm ivory"></div>
-        <div class="swatch sw-sage"  data-theme="sage"  title="Sage green"></div>
-        <div class="swatch sw-slate" data-theme="slate" title="Slate blue"></div>
-        <div class="swatch sw-rose"  data-theme="rose"  title="Rose"></div>
+      <label>Background Color</label>
+      <div class="color-pick-row">
+        <input type="color" id="bg-picker" value="#ffffff" title="Pick a custom background color" aria-label="Custom background color">
+        <div class="color-pick-preview" id="color-preview" style="background:#ffffff;"></div>
+        <span class="color-pick-label">Custom</span>
+        <button class="color-reset" id="color-reset" title="Reset to white">Reset</button>
       </div>
     </div>
+
+    <div>
+      <label>Color Theme Presets</label>
+      <div class="theme-grid">
+        <div class="theme-opt active" data-theme="white">
+          <div class="swatch sw-white"></div><span class="sw-lbl">White</span>
+        </div>
+        <div class="theme-opt" data-theme="parchment">
+          <div class="swatch sw-parchment"></div><span class="sw-lbl">Parchment</span>
+        </div>
+        <div class="theme-opt" data-theme="ivory">
+          <div class="swatch sw-ivory"></div><span class="sw-lbl">Ivory</span>
+        </div>
+        <div class="theme-opt" data-theme="linen">
+          <div class="swatch sw-linen"></div><span class="sw-lbl">Linen</span>
+        </div>
+        <div class="theme-opt" data-theme="sage">
+          <div class="swatch sw-sage"></div><span class="sw-lbl">Sage</span>
+        </div>
+        <div class="theme-opt" data-theme="slate">
+          <div class="swatch sw-slate"></div><span class="sw-lbl">Slate</span>
+        </div>
+        <div class="theme-opt" data-theme="rose">
+          <div class="swatch sw-rose"></div><span class="sw-lbl">Rose</span>
+        </div>
+        <div class="theme-opt" data-theme="ocean">
+          <div class="swatch sw-ocean"></div><span class="sw-lbl">Ocean</span>
+        </div>
+        <div class="theme-opt" data-theme="sand">
+          <div class="swatch sw-sand"></div><span class="sw-lbl">Sand</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 <script src="shared.js"></script>
