@@ -8,22 +8,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
 <style>
-.home-hero { padding:9rem 2rem 5rem; background:var(--bg); text-align:center; border-bottom:1px solid var(--border); position:relative; overflow:hidden; }
-.home-hero::before { content:''; position:absolute; top:0; left:20%; bottom:0; width:1px; background:var(--accent); opacity:.1; }
-.home-hero::after  { content:''; position:absolute; top:0; right:20%; bottom:0; width:1px; background:var(--accent); opacity:.1; }
+.home-hero { padding:8rem 2rem 5rem; background:var(--bg); text-align:center; border-bottom:2px solid var(--accent); position:relative; overflow:hidden; }
+.home-hero::before { content:''; position:absolute; top:0; left:20%; bottom:0; width:1px; background:var(--accent); opacity:.10; }
+.home-hero::after  { content:''; position:absolute; top:0; right:20%; bottom:0; width:1px; background:var(--accent); opacity:.10; }
 .home-eyebrow { font-family:'Josefin Sans',sans-serif; font-weight:200; font-size:.62rem; letter-spacing:.45em; text-transform:uppercase; color:var(--accent2); margin-bottom:1.5rem; display:block; }
-.home-hero h1 { font-family:'Cormorant Garamond',serif; font-weight:300; font-size:clamp(3rem,8vw,6rem); line-height:.95; color:var(--text); letter-spacing:-.01em; margin-bottom:1.75rem; }
+.home-hero h1 { font-family:'Cormorant Garamond',serif; font-weight:300; font-size:clamp(3rem,8vw,5.5rem); line-height:.95; color:var(--text); letter-spacing:-.01em; margin-bottom:1.75rem; }
 .home-hero h1 em { font-style:italic; color:var(--accent); }
-.home-divider { width:60px; height:2px; background:var(--accent); margin:0 auto 1.75rem; opacity:.6; }
-.home-tagline { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-style:italic; color:var(--text2); max-width:520px; margin:0 auto 1rem; line-height:1.5; }
+.home-divider { width:60px; height:2px; background:var(--accent); margin:0 auto 1.75rem; opacity:.7; }
+.home-tagline { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-style:italic; color:var(--text2); max-width:520px; margin:0 auto 1rem; line-height:1.55; }
 .home-sub { font-family:'Josefin Sans',sans-serif; font-weight:300; font-size:.82rem; letter-spacing:.1em; color:var(--muted); max-width:520px; margin:0 auto 2.5rem; line-height:1.9; }
 .home-actions { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:3.5rem; }
 .home-classical { max-width:680px; margin:0 auto; border:1px solid var(--border); }
 .home-classical img { width:100%; display:block; }
 .home-classical-cap { font-family:'Josefin Sans',sans-serif; font-weight:200; font-size:.58rem; letter-spacing:.3em; text-transform:uppercase; color:var(--muted); text-align:center; padding:.65rem 1rem; background:var(--surface); border-top:1px solid var(--border); }
 .home-photos { display:flex; gap:1.25rem; justify-content:center; margin-top:3rem; }
-.home-photo { width:clamp(90px,18vw,155px); aspect-ratio:3/4; object-fit:cover; border:1px solid var(--border); filter:sepia(.2); opacity:.85; transition:opacity .3s,filter .3s; }
-.home-photo:hover { opacity:1; filter:sepia(0); }
+.home-photo { width:clamp(90px,18vw,155px); aspect-ratio:3/4; object-fit:cover; border:1px solid var(--border); opacity:.85; transition:opacity .3s; }
+.home-photo:hover { opacity:1; }
 .home-photo:nth-child(2) { margin-top:2rem; }
 .home-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); border-top:1px solid var(--border); border-bottom:1px solid var(--border); background:var(--surface); }
 .home-stat { padding:2.5rem 1.5rem; text-align:center; border-right:1px solid var(--border); }
@@ -34,7 +34,6 @@
 </style>
 </head>
 <body>
-
 <nav>
   <a class="nb" href="index.html">The Kaboff Cello School<span>Vienna, Virginia</span></a>
   <button class="hbg" onclick="toggleMobile()" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
@@ -47,7 +46,7 @@
         <a href="solo.html">Student Solo Performances</a>
         <a href="chamber.html">Chamber Music Performances</a>
         <a href="choir.html">Cello Choir Performances</a>
-        <a href="johns.html">John's Performances</a>
+        <a href="johns.html">John&#39;s Performances</a>
       </div>
     </li>
     <li class="dd"><button aria-haspopup="true">Resources &#9662;</button>
@@ -57,7 +56,7 @@
         <a href="press.html">Articles &amp; Press</a>
         <a href="lectures.html">Lectures</a>
         <a href="congresses.html">Cello Congresses</a>
-        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
+        <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&#8211;2026 Info Pak &#8599;</a>
       </div>
     </li>
     <li><a href="contact.html">Contact</a></li>
@@ -71,14 +70,14 @@
   <a href="solo.html">Student Solo Performances</a>
   <a href="chamber.html">Chamber Music Performances</a>
   <a href="choir.html">Cello Choir Performances</a>
-  <a href="johns.html">John's Performances</a>
+  <a href="johns.html">John&#39;s Performances</a>
   <div class="mml">Resources</div>
   <a href="materials.html">Teaching Materials</a>
   <a href="competitions.html">Competitions &amp; Youth Orchestras</a>
   <a href="press.html">Articles &amp; Press</a>
   <a href="lectures.html">Lectures</a>
   <a href="congresses.html">Cello Congresses</a>
-  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&ndash;2026 Info Pak &#8599;</a>
+  <a href="https://drive.google.com/file/d/1cSg35o0Xbh-4TRz-FLIxmtH7X0ZV_umR/view" target="_blank" rel="noopener">2025&#8211;2026 Info Pak &#8599;</a>
   <a href="contact.html">Contact</a>
 </div>
 
@@ -125,23 +124,30 @@
   <span class="fb">The Kaboff Cello School</span>
   <span class="fs">2413 Luckett Avenue &middot; Vienna, VA 22180 &middot; 202 486 8916 &middot; CelloDoctor@aol.com</span>
   <ul class="fl">
-    <li><a href="index.html">Home</a></li><li><a href="bio.html">Biography</a></li>
-    <li><a href="suzuki.html">Suzuki Lessons</a></li><li><a href="solo.html">Solo Performances</a></li>
-    <li><a href="chamber.html">Chamber Music</a></li><li><a href="choir.html">Cello Choir</a></li>
-    <li><a href="johns.html">John's Performances</a></li><li><a href="materials.html">Teaching Materials</a></li>
-    <li><a href="press.html">Press</a></li><li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="bio.html">Biography</a></li>
+    <li><a href="suzuki.html">Suzuki Lessons</a></li>
+    <li><a href="solo.html">Solo Performances</a></li>
+    <li><a href="chamber.html">Chamber Music</a></li>
+    <li><a href="choir.html">Cello Choir</a></li>
+    <li><a href="johns.html">John&#39;s Performances</a></li>
+    <li><a href="materials.html">Teaching Materials</a></li>
+    <li><a href="competitions.html">Competitions</a></li>
+    <li><a href="press.html">Press</a></li>
+    <li><a href="lectures.html">Lectures</a></li>
+    <li><a href="congresses.html">Congresses</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
 </footer>
-
 <div class="a11y-bar">
   <button class="a11y-toggle" id="a11y-toggle" title="Display &amp; Color Options" aria-label="Open display settings">&#9881;</button>
   <div class="a11y-panel" id="a11y-panel" role="dialog" aria-label="Display settings">
     <div>
       <label>Text Size</label>
       <div class="font-row">
-        <button id="font-dn" aria-label="Decrease text size">A&minus;</button>
+        <button id="font-dn" aria-label="Smaller text">A&#8722;</button>
         <button id="font-rs" aria-label="Reset text size">A</button>
-        <button id="font-up" aria-label="Increase text size">A+</button>
+        <button id="font-up" aria-label="Larger text">A+</button>
       </div>
     </div>
     <div>
@@ -156,7 +162,7 @@
     <div>
       <label>Color Theme Presets</label>
       <div class="theme-grid">
-        <div class="theme-opt active" data-theme="white"><div class="swatch sw-white"></div><span class="sw-lbl">White</span></div>
+        <div class="theme-opt" data-theme="white"><div class="swatch sw-white"></div><span class="sw-lbl">White</span></div>
         <div class="theme-opt" data-theme="parchment"><div class="swatch sw-parchment"></div><span class="sw-lbl">Parchment</span></div>
         <div class="theme-opt" data-theme="ivory"><div class="swatch sw-ivory"></div><span class="sw-lbl">Ivory</span></div>
         <div class="theme-opt" data-theme="linen"><div class="swatch sw-linen"></div><span class="sw-lbl">Linen</span></div>
